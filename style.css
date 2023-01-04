@@ -1,0 +1,22 @@
+body{
+display: flex;
+flex-direction: column;
+}
+
+header{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 13vh;
+}
+
+main{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 80vh;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 7vh;
+}
