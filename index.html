@@ -7,25 +7,54 @@
     <title>Lista</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="npm i bootstrap@5.3.0-alpha1">
 </head>
 <body>
 
-    <header></header>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <!-- Navbar content -->
+          </nav>
+          
+          <nav class="navbar navbar-dark bg-primary">
+            <!-- Navbar content -->
+          </nav>
+    </header>
 
     <Main>
 
-        <section></section>
+        <div class="addNameContainer">
+            
+            <h1>Lista De ALumnos</h1>
 
-        
+         <form class="formContainer" >
+            
+               <label for="Name">Nombre</label> <input id="Name">
+             
+             
+                <label for="Surname" > 1er Apellido</label> <input id="Surname">   
+             
 
+                <label for="SecondSurname"> 2o Apellido</label> <input id="SecondSurname">
+            
+          
+            <button id="formButton">Agregar</button>
+         </form>
+          
+
+        </div>
+
+        <section class="tableNames">
+            <table>
+                <tr>esto es una fila</tr>
+
+            </table>
+
+        </section>
 
     </Main>
     
     <footer></footer>
-
-
-
-
     <script src="./script.js"></script>
 </body>
 </html>
