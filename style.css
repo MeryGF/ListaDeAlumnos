@@ -16,7 +16,8 @@ flex-direction: column;
 header{
     background-color: #402B28;
     width: 100vw;
-    height: 14vh;
+  
+  
 }
 
 main{
@@ -35,7 +36,7 @@ section{
 footer{
     background-color: #80564F;
     width: 100vw;
-    height: 6vh;
+    height: 20vh;
 }
 
 h1{
@@ -44,11 +45,17 @@ h1{
     align-self: center;
 }
 
+.nav{
+   padding: 1.5%;
+}
+
 .addNameContainer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content:center; 
+    justify-content:center;
+    padding: 2%;
+    margin-bottom: 2%; 
 }
 
 .formContainer{
@@ -62,7 +69,23 @@ h1{
     padding: 5%;     
 }
 
+.thead-dark{
+    border: solid #402B28 ;
+    font-family: 'Permanent_Marker';
+    color: #FFAB9E;
+    background-color: #402B28;
+}
+
+.styleTbdoy{
+ background-color: #80564F;
+ border: solid #80564F;
+ color: #FFAB9E;
+ font-family: 'Indie_Flower';
+
+}
+
 #formButton{
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
+    margin-top: 5%;
 }
