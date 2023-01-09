@@ -24,24 +24,27 @@
     </header>
 
     <main>
-      <div class="addNameContainer">
-        <h1>Lista De ALumnos</h1>
+      <h1>Lista De ALumnos</h1>
 
-        <form class="formContainer" id="formTransaction">
-          <label for="Name">Nombre</label> <input id="Name" />
+      <div class="wrapContainer">
 
-          <label for="Surname"> 1er Apellido</label> <input id="Surname" />
+        <div class="addNameContainer">       
 
-          <label for="SecondSurname"> 2o Apellido</label>
-          <input id="SecondSurname" />
+          <form class="formContainer" id="formTransaction">
+            <label for="Name">Nombre</label> <input id="Name" name="Name" />
 
-          <button id="formButton">Agregar</button>
-        </form>
-      </div>
+            <label for="Surname"> 1er Apellido</label> <input id="Surname" name="Surname"/>
 
-      <section class="tableNames">
+            <label for="SecondSurname"> 2o Apellido</label> <input id="SecondSurname" name="SecondSurname"/>
 
-        <table class="table">
+            <button id="formButton">Agregar</button>
+          </form>
+        </div>
+
+        <section class="tableNames">
+
+          <table class="table">
+
             <thead class="thead-dark">
               <tr>
                 <th>#</th>
@@ -50,7 +53,8 @@
                 <th>2o Apellido</th>
               </tr>
             </thead>
-            <tbody class="styleTbdoy">
+            
+            <tbody class="styleTbody">
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
@@ -66,7 +70,8 @@
             </tbody>
           </table>      
     
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer>
