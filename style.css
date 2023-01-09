@@ -44,8 +44,10 @@ h1{
     font-size:xx-large;
     align-self: center;
     padding-top: 2%;
+    
 }
 
+/* header bootsrap */
 .nav{
    padding: 1.5%;
    font-family: 'Permanent_Marker';
@@ -93,8 +95,33 @@ h1{
 
 }
 
+.tableButtons{
+    font-family: 'Indie_Flower';
+    display: flex;
+    justify-content: space-around;
+}
+
 #formButton{
     margin: auto;
     margin-bottom: 7%;
     margin-top: 5%;
+    border: solid #80564F 3px;
+    background-color: #BF8077;
+    color: #402B28;
+    font-size: large;
+}
+#tableButton1{
+
+    border: solid #80564F 3px;
+    background-color: #FFAB9E;
+    color: #402B28;
+    font-size: large;
+}
+
+#tableButton2{
+
+    border: solid #80564F 3px;
+    background-color: #FFAB9E;
+    color: #402B28;
+    font-size: large;
 }
