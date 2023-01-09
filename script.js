@@ -5,7 +5,7 @@ form.addEventListener('submit', function(event){
   let transactionFormData = new FormData(form);
 
   let tableTransaction = document.getElementById('tableTransaction');
-  let newTransactionRow = tableTransaction.insertRow(-1);
+  let newTransactionRow = tableTransaction.insertRow(1);
 
   let newTypeCell =  newTransactionRow.insertCell(0);
   newTypeCell.textContent = transactionFormData.get('');
@@ -14,10 +14,10 @@ form.addEventListener('submit', function(event){
   newTypeCell.textContent = transactionFormData.get('Name');
 
   newTypeCell = newTransactionRow.insertCell(2);
-  newTypeCell.textContent = transactionFormData.get('SurName');
+  newTypeCell.textContent = transactionFormData.get('Surname');
 
   newTypeCell = newTransactionRow.insertCell(3);
-  newTypeCell.textContent = transactionFormData.get('SecondSurName');
+  newTypeCell.textContent = transactionFormData.get('SecondSurname');
 
 
 })
